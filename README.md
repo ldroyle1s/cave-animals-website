@@ -29,11 +29,11 @@ All people who are interested in animals would want to view our website because 
 
 ## CSS Themes
 ### Fonts and Colors
-- Font for Headings: (Name and Google fonts link)
-- Font for Paragraphs: (EXAMPLE: Roboto, https://fonts.google.com/specimen/Roboto)
-- Background Color: (paste hex code or rgb value here)
-- Font Color: (EXAMPLE: #FFFFFF)
-- Contrast Ratio: (needs to be 4.5 or higher)
+- Font for Headings: Borel, https://fonts.google.com/specimen/Borel
+- Font for Paragraphs: Rubik, https://fonts.google.com/specimen/Rubik
+- Background Color: #cf9570
+- Font Color: #000000
+- Contrast Ratio: 8.18
 - Include additional colors such as foreground, or different colors for Headings(1-6), Paragraphs, Anchors/Links, etc.
 - Paragraph Font Size (use em or rem, not pixels)
 - Header Font Size (include values for h1-h6, add more font sizes for different sections of your webpage (such as navigation, footer, article, etc.))

@@ -9,6 +9,7 @@ h1 {
 p {
     font-family: Rubik;
 }
+
 /* header */
 header img {
     width: 100%;
@@ -19,27 +20,25 @@ header img {
 header{
     margin: 0;
     padding: 0;
-    background-color: #8c441c;
+    background-color: #8C441C;
 }
 /* Navigation */
-
 .horizontal ul{
     list-style-type: none;
-    padding: 0em;
-    margin: 0em;
+    padding: 0px;
+    margin: 0px;
     overflow: hidden;
 }
-
 .horizontal a{
-    background-color: #8c441c;
-    color: #eddac0;
+    background-color: #8C441C;
+    color: #EDDAC0;
     text-decoration: none;
-    padding: 1em;
+    padding: 15px;
     display: block;
     text-align: center;
-    font-size: 2em;
-    border-left: .06em solid black;
-    border-right: .06em solid black;
+    font-size: 30px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 .horizontal li{
     float: left;
@@ -55,56 +54,55 @@ header{
     height: 100vh;
 }
 #text1 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 2;
-    width: 750px;
+    width: 637px;
     position: absolute;
-    left: 35%;
-    top: 24.8%;
+    left: 33.3%;
+    top: 26.2%;
     text-align: center;
     display: inline-block;
     background-color: #ad968eff;
-    padding: 64px;
+    padding: 71.5px;
     color: #352F2A;
 }
 #oilbird {
     position: absolute;
-    left: 70px;
-    top: 350px;
-    width: 675px;
+    left: 50px;
+    top: 300px;
+    width: 500px;
     text-align: center;
         img {
-        width: 675px;
+        width: 500px;
     }
 }
 #bear {
     position: absolute;
-    left: 70px;
-    top: 1050px;
-    width: 675px;
+    left: 50px;
+    top: 780px;
     text-align: center;
         img {
-        width: 675px;
+        width: 500px;
         filter: opacity(50%);
     }
 }
 #mander {
     position: absolute;
-    left: 1800px;
-    top: 350px;
-    width: 650px;
+    left: 1350px;
+    top: 280px;
+    width: 470px;
         img {
-        width: 650px;
+        width: 470px;
     }
 }
 #bat {
     position: absolute;
-    left: 1800px;
-    top: 950px;
-    width: 650px;
+    left: 1350px;
+    top: 720px;
+    width: 470px;
     text-align: center;
         img {
-        width: 650px;
+        width: 470px;
     }
 }
 /* Troglophiles styles */
@@ -112,59 +110,59 @@ header{
     background-color: rgb(102, 80, 70);
     width: 100%;
     padding: 20px;
-    height: 100vh;
+    height: 104.5vh;
 }
 #text2 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 2;
-    width: 750px;
+    width: 637px;
     position: absolute;
-    left: 2%;
-    top: 124.8%;
+    left: -5px;
+    top: 126.5%;
     text-align: center;
     display: inline-block;
     background-color: rgb(92, 72, 62);
-    padding: 128px;
+    padding: 115px;
     color: #DBCBB4;
 }
 #racer {
     position: absolute;
-    left: 950px;
-    top: 1600px;
-    width: 650px;
+    left: 720px;
+    top: 1180px;
+    width: 470px;
     text-align: center;
         img {
-        width: 650px;
+        width: 470px;
     }
 }
 #spider {
     position: absolute;
-    left: 1800px;
-    top: 1600px;
-    width: 650px;
+    left: 1350px;
+    top: 1180px;
+    width: 470px;
     text-align: center;
         img {
-        width: 650px;
+        width: 470px;
     }
 }
 #scorpion {
     position: absolute;
-    left: 1800px;
-    top: 2200px;
-    width: 650px;
+    left: 1350px;
+    top: 1680px;
+    width: 470px;
     text-align: center;
         img {
-        width: 650px;
+        width: 470px;
     }
 }
 #pede {
     position: absolute;
-    left: 950px;
-    top: 2150px;
-    width: 650px;
+    left: 720px;
+    top: 1630px;
+    width: 470px;
     text-align: center;
         img {
-        width: 650px;
+        width: 470px;
     }
 }
 /* Troglobite styles */
@@ -175,69 +173,70 @@ header{
     height: 137vh;
 }
 #text3 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 2;
-    width: 750px;
+    width: 637px;
     position: absolute;
-    left: 35%;
-    top: 2730px;
+    left: 33.3%;
+    top: 2103px;
     text-align: center;
     display: inline-block;
-    background-color: rgb(43, 34, 27);
-    padding: 160px;
+    background-color: rgb(39, 33, 28);
+    padding: 144px;
     color: #DBCBB4;
 }
 #shrimp {
     position: absolute;
-    top: 2770px;
+    top: 2150px;
     left: 100px;
-    width: 650px;
+    width: 470px;
     text-align: center;
         img {
-        width: 650px;
+        width: 470px;
     }
 }
 #crab {
     position: absolute;
     left: 100px;
-    top: 3300px;
-    width: 650px;
+    top: 2550px;
+    width: 470px;
     text-align: center;
         img {
-        width: 650px;
+        width: 470px;
     }
 }
 #fish {
     position: absolute;
     left: 100px;
-    top: 3830px;
-    width: 650px;
+    top: 2950px;
+    width: 470px;
     text-align: center;
         img {
-        width: 650px;
+        width: 470px;
     }
 }
 #velvet{
     position: absolute;
-    left: 1770px;
-    top: 2950px;
-    width: 700px;
+    top: 2300px;
+    left: 1350px;
+    width: 500px;
     text-align: center;
         img {
-        width: 700px;
+        width: 500px;
     }
 }
 #olm {
     position: absolute;
-    left: 1800px;
-    top: 3700px;
-    width: 650px;
+    left: 1350px;
+    top: 2850px;
+    width: 470px;
     text-align: center;
         img {
-        width: 650px;
+        width: 470px;
     }
 }
 /* Footer */
+
 
 footer {
     background-color: rgb(39, 33, 28);
@@ -246,11 +245,14 @@ footer {
     padding: 1.25em;
     clear: both;
     height: auto;
+    flex: 0 0 50px;
+  margin-top: auto;
 }
 
 footer a{
     text-decoration: none;
     color: rgb(219, 173, 135);
+    font-family: Rubik;
 }
 
 footer a:hover {
@@ -262,6 +264,8 @@ footer h1 {
     font-size: 2.2em;
     position: sticky;
     line-height: 1em;
+    margin-bottom: .35em;
+    font-family: Borel;
 }
 footer p{
     color: rgb(219, 173, 135);

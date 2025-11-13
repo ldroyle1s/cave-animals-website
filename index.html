@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caves</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/flex.css">
@@ -25,13 +31,30 @@
 
             <form id="caveSurvey" action="#">
                 <fieldset id="caveForm">
-                <legend>Send Feedback</legend>
-                <div>
-                    <label for="feed"></label>
-                    <input type="text" name="feedback" id="feed">
-                    <button type="submit">Submit</button>
-                </div>
-                </fieldset>
+         <div class="formRow">
+            <label for="page">What was your favorite page?</label>
+            <select name="favPage" id="page">
+               <option value="order1" selected>Home</option>
+               <option value="order2">Geography</option>
+               <option value="order3">Animals</option>
+            </select>
+         </div>
+            <div class="formRow">
+               <label for="rangeBox">Rate the Website!<br/>
+                   (0=poor; 10=great)</label>
+                   0
+                   <input name="serviceRate" id="rangeBox" type="range"
+                   value="5" step="1" min="0" max="10"/>
+                   10
+            </div>
+         </div>
+         <label for="commBox">Is there anything you want us to add?</label>
+         <textarea name="custExp" id="commBox"></textarea>
+         <div id="buttons">
+         <input type="submit" value="Submit My Survey"/>
+         <input type="reset" value="Cancel"/>
+      </div>
+      </fieldset>
             </form>
         </section>
         <section id="secTwo">
