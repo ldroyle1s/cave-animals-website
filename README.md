@@ -22,7 +22,7 @@ All people who are interested in animals would want to view our website because 
 ## Assigning Tasks
 - Host - Tyler: GitHub Repo link, responsive-web, HTML pages, navigation, 
 - Cole: Collecting images/videos, stylesheets, 
-- Louis: Form, HTML pages, navigation, 
+- Louis: Form, HTML pages, navigation, stylesheets
   (Do not assign one person to handle an entire webpage by themselves, you should assign them based on their strengths to a particular task that needs to be done accross the whole website)
 
 ## Website Layout
@@ -32,7 +32,7 @@ All people who are interested in animals would want to view our website because 
 - Font for Headings: Borel, https://fonts.google.com/specimen/Borel
 - Font for Paragraphs: Rubik, https://fonts.google.com/specimen/Rubik
 - Background Color: #cf9570
-- Font Color: #000000
+- Font Color: #352F2A
 - Contrast Ratio: 8.18
 - Include additional colors such as foreground, or different colors for Headings(1-6), Paragraphs, Anchors/Links, etc.
 - Paragraph Font Size (use em or rem, not pixels)

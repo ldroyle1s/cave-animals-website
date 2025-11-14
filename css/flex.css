@@ -1,3 +1,59 @@
-@media only screen and (max-width: 640) {
+/* Mobile */
 
-   }
+@media only screen and (max-width: 480px) {
+section, figcaption {
+    font-size: .7em;
+}
+section#secTwo p{
+    font-size: .5em;
+    line-height: .9em;
+}
+img{
+    width: 15em;
+    height: auto;
+}
+video{
+    height: auto;
+    width: 63%;
+}
+#secTwo{
+    padding: 1em;
+    margin-left: .5em;
+    float: right;
+    height: auto;
+    width: 190px;
+    position:relative;
+}
+section#secOne{
+flex-direction: column-reverse;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.horizontal{
+    font-size: .5em;
+}
+}
+@media only screen and (max-width: 375px) {
+#secTwo{
+    padding: 1em;
+    float: right;
+    height: auto;
+    width: 150px;
+    position:relative;
+    background-color: transparent;
+}
+}
+
+/* ---------------------------------------------------------------------------- */
+
+
+/* Tablet and Desktop */
+
+@media only screen and (min-width: 481px) {
+    
+}
+

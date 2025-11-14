@@ -15,20 +15,22 @@
     <link rel="stylesheet" href="./css/flex.css">
 </head>
 <body>
+    <!-- header contents + navigation -->
     <header>
         <img src="./imgs/Cave_Title.png" alt="Cave Logo" id="logoimg">
-        <nav class="horizontal">
+        
+    </header>
+    <nav class="horizontal">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="./html/geography.html">Geography</a></li>
                 <li><a href="./html/animals.html">Animals</a></li>
             </ul>
         </nav>
-    </header>
     <main>
         <section id="secOne">
             <img src="./imgs/cave.jpg" alt="cave">
-
+    <!-- form contents -->
             <form id="caveSurvey" action="#">
                 <fieldset id="caveForm">
          <div class="formRow">
@@ -43,20 +45,21 @@
                <label for="rangeBox">Rate the Website!<br/>
                    (0=poor; 10=great)</label>
                    0
-                   <input name="serviceRate" id="rangeBox" type="range"
+                   <input name="rateWebsite" id="rangeBox" type="range"
                    value="5" step="1" min="0" max="10"/>
                    10
             </div>
          </div>
-         <label for="commBox">Is there anything you want us to add?</label>
-         <textarea name="custExp" id="commBox"></textarea>
+         <label for="addThings">Is there anything you want us to add?</label>
+         <textarea name="addAnything" id="addThings"></textarea>
          <div id="buttons">
-         <input type="submit" value="Submit My Survey"/>
+         <input type="submit" value="Submit"/>
          <input type="reset" value="Cancel"/>
       </div>
       </fieldset>
             </form>
         </section>
+    <!-- text -->
         <section id="secTwo">
         <p>Caves or caverns are natural voids under the surface of the Earth
            and have been observed in other rocky worlds also (viz. on Mars).
@@ -65,18 +68,19 @@
            Caves which extend farther underground than the opening is wide are 
            called endogene caves.</p>
         </section>
+    <!-- video -->
         <section id="secThree">
             <figure>
                 <video controls id="caveVid">
                     <source src="./vids/cave_video.mp4" type="video/mp4">
                 </video>
-                <figcaption>A cavernous ecosystem is delicate and full of beautiful animals and rock formations.</figcaption>
             </figure>
             
             
 
         </section>
     </main>
+    <!-- footer contents -->
     <footer>
         <h1>CONTACT US</h1>
         <a href="mailto:caveanimalsorg@email.com">Send an Email</a>
