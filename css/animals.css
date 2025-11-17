@@ -93,7 +93,6 @@ header{
     text-align: center;
         img {
         width: 500px;
-        filter: opacity(50%);
     }
 }
 /* sets the position and size */

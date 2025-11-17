@@ -1,59 +1,244 @@
-/* Mobile */
-
+/* Design for iPhone 14 Pro Max */
 @media only screen and (max-width: 480px) {
-section, figcaption {
-    font-size: .7em;
-}
-section#secTwo p{
-    font-size: .5em;
-    line-height: .9em;
-}
-img{
-    width: 15em;
-    height: auto;
-}
-video{
-    height: auto;
-    width: 63%;
-}
-#secTwo{
-    padding: 1em;
-    margin-left: .5em;
-    float: right;
-    height: auto;
-    width: 190px;
-    position:relative;
-}
-section#secOne{
-flex-direction: column-reverse;
-}
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-.horizontal{
-    font-size: .5em;
-}
-}
-@media only screen and (max-width: 375px) {
-#secTwo{
-    padding: 1em;
-    float: right;
-    height: auto;
-    width: 150px;
-    position:relative;
-    background-color: transparent;
-}
-}
 
-/* ---------------------------------------------------------------------------- */
+    html, body {
+        overflow-x: hidden;
+    }
+
+    /* Nav Styles */
+    .horizontal li {
+        float: none;
+        width: 100%;
+        border-bottom: 0.06em solid #352F2A;
+    }
+
+    .horizontal a {
+        font-size: 1.5em;
+        padding: 0.7em;
+        border-left: none;
+        border-right: none;
+    }
+
+    /* Footer Styles */
+    footer {
+        height: auto;
+        padding: 1em;
+        text-align: center;
+    }
+
+    footer h1 {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+        line-height: 1.2em;
+        position: static;
+    }
+
+    footer a {
+        display: block;
+        padding: 0.2em 0;
+        font-size: 1em;
+    }
+
+    footer a {
+        display: block;
+        padding: 0.2em 0;
+        font-size: 1em;
+    }
+
+    /* INDEX Styles */
+
+    #secOne {
+        width: 100%;
+        float: none;
+        margin: 0;
+        display: block;
+        position: static;
+    }
+
+    #secTwo {
+        width: 100%;
+        float: none;
+        margin: 0;
+        display: block;
+        position: static;
+    }
+
+    #secThree {
+        width: 100%;
+        float: none;
+        margin: 0;
+        display: block;
+        position: static;
+    }
+
+    #secOne img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    /* Form Styles */
+    form#caveSurvey {
+        flex-direction: column;
+    }
+
+    form#caveSurvey > fieldset {
+        width: auto;
+        margin: 10px;
+        padding: 15px;
+        font-size: 1em;
+    }
+
+    .formRow {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .formRow label {
+        margin-bottom: 5px;
+        line-height: 1.5em;
+    }
+
+    #rangeBox {
+        width: 80%;
+        margin: 0.5em 0;
+    }
+
+    textarea#addThings {
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    #secTwo {
+        padding: 1em;
+        font-size: 1.2em;
+        height: auto;
+    }
+
+    video#caveVid {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
 
 
-/* Tablet and Desktop */
+    /* Geography Styles */
 
-@media only screen and (min-width: 481px) {
-    
+    #secOneGeo {
+        width: 100%;
+        float: none;
+        margin: 0;
+        position: static;
+    }
+
+    #secTwoGeo {
+        padding: 1em;
+        font-size: 1.2em;
+        height: auto;
+        width: 100%;
+        float: none;
+        margin: 0;
+        position: static;
+    }
+
+    #secThreeGeo {
+        width: 100%;
+        float: none;
+        margin: 0;
+        position: static;
+    }
+
+    figure {
+        margin: 1em 0.5em;
+        text-align: center;
+    }
+
+    figure img {
+        width: 95%;
+        height: auto;
+    }
+
+    figcaption {
+        width: 95%;
+        margin: 0.5em auto;
+        font-size: 1em;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+
+    /* Animals Styles */
+
+    #Xenes {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #Philes {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #Bites {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #text1 {
+        position: static;
+        width: 90%;
+        margin: 1em auto;
+        padding: 1em;
+        font-size: 1.1em;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    #text2 {
+        position: static;
+        width: 90%;
+        margin: 1em auto;
+        padding: 1em;
+        font-size: 1.1em;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    #text3 {
+        position: static;
+        width: 90%;
+        margin: 1em auto;
+        padding: 1em;
+        font-size: 1.1em;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    /* Align Images and Figures Inline With Phone */
+    #oilbird, #bear, #mander, #bat,
+    #racer, #spider, #scorpion, #pede,
+    #shrimp, #crab, #fish, #velvet, #olm {
+        position: static;
+        width: 90%;
+        margin: 1em auto;
+    }
+
+    #Xenes figure img,
+    #Philes figure img,
+    #Bites figure img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Caption Styles */
+    #oilbird figcaption, #bat figcaption,
+    #racer figcaption, #spider figcaption, #scorpion figcaption, #pede figcaption,
+    #shrimp figcaption, #crab figcaption, #fish figcaption,
+    #velvet figcaption, #olm figcaption {
+        text-align: left;
+        padding: 0.5em 0;
+    }
 }
-
