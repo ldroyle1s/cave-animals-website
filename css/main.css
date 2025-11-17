@@ -87,6 +87,8 @@ section{
 }
 #secThree{
     float: right;
+    width: 65%;
+    height: auto;
     
 }
  section img{
@@ -124,8 +126,9 @@ img#cave {
 }
 /* sets the video size */
 video{
-    max-width: 96%;
+    width: 50%;
     float: right;
+
 }
 /* Figure*/
 figure img{

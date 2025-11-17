@@ -114,7 +114,8 @@ header{
     width: 470px;
     text-align: center;
         img {
-        width: 470px;
+        width: 400px;
+        height: auto;
     }
 }
 /* Troglophiles styles */
