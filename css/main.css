@@ -33,14 +33,14 @@ header{
 }
 /* Navigation */
 
-.horizontal ul{
+#horizontal ul{
     list-style-type: none;
     padding: 0em;
     margin: 0em;
     overflow: hidden;
 }
 
-.horizontal a{
+#horizontal a{
     background-color: #8c441c;
     color: #eddac0;
     text-decoration: none;
@@ -52,7 +52,7 @@ header{
     border-right: .06em solid #352F2A;
     font-family: Rubik;
 }
-.horizontal li{
+#horizontal li{
     float: left;
     width: 33.333%;
     margin: 0;
@@ -73,7 +73,7 @@ section{
 }
 /* sets the textbox styles */
 #secTwo{    
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: 1.5em;
     margin: auto;
     width: 33%;
@@ -81,7 +81,7 @@ section{
     position: absolute;
     padding: 2em;
     text-align: center;
-    height: 64.7%;
+    height: 73.2%;
     float: left;
 
 }
@@ -102,7 +102,6 @@ h1 {
 }
 
 p {
-    font-size: larger;
     font-family: Rubik;
 }
 

@@ -28,7 +28,7 @@ section{
     position: relative;
 }
 #secTwoGeo{
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 1.5em;
     margin: auto;
     width: 33%;
@@ -37,7 +37,7 @@ section{
     height: 112%;
     padding: 2em;
     text-align: center;
-    color: #352F2A
+    color: #000000
 }
 #secThreeGeo{
     float: right;
@@ -59,13 +59,13 @@ header{
 }
 /* Navigation */
 
-.horizontal ul{
+#horizontal ul{
     list-style-type: none;
     padding: 0em;
     margin: 0em;
     overflow: hidden;
 }
-.horizontal a{
+#horizontal a{
     background-color: #8c441c;
     color: #eddac0;
     text-decoration: none;
@@ -77,7 +77,7 @@ header{
     border-right: .06em solid #352F2A;
     font-family: Rubik;
 }
-.horizontal li{
+#horizontal li{
     float: left;
     width: 33.333%;
     margin: 0;

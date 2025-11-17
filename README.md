@@ -1,5 +1,5 @@
 # Project Assignment: HTML & CSS Capstone
-(delete everything in parenthesis after you have finished(including this line 😜))
+
 
 ## Group Members
 #### - Cole Moore
@@ -9,7 +9,7 @@
 # Title of Website: Cave Animals
 
 ## Purpose of Website
-This website is for people who enjoy animals. We go in depth on what animals are present in caves, as well as showing off some weird looking ones.
+This website is for people who enjoy animals. We go in depth on what animals are present in caves, as well as showing some off .
 
 ## Target Audience
 - Age Group: Any
@@ -20,10 +20,9 @@ This website is for people who enjoy animals. We go in depth on what animals are
 All people who are interested in animals would want to view our website because they are introduced to new animals they may not know about. As well as learning more about animals in an area they might not think about often.
 
 ## Assigning Tasks
-- Host - Tyler: GitHub Repo link, responsive-web, HTML pages, navigation, 
-- Cole: Collecting images/videos, stylesheets, 
+- Host - Tyler: GitHub Repo link, responsive-web, HTML pages, navigation 
+- Cole: Collecting images/videos, stylesheets, HTML pages
 - Louis: Form, HTML pages, navigation, stylesheets
-  (Do not assign one person to handle an entire webpage by themselves, you should assign them based on their strengths to a particular task that needs to be done accross the whole website)
 
 ## Website Layout
 
@@ -34,14 +33,16 @@ All people who are interested in animals would want to view our website because 
 - Background Color: #cf9570
 - Font Color: #352F2A
 - Contrast Ratio: 8.18
-- Include additional colors such as foreground, or different colors for Headings(1-6), Paragraphs, Anchors/Links, etc.
-- Paragraph Font Size (use em or rem, not pixels)
-- Header Font Size (include values for h1-h6, add more font sizes for different sections of your webpage (such as navigation, footer, article, etc.))
+- foregound Color: #be7f58
+- Figcaption: #cf713d
+- P, H1 on darker backgrounds:  #DBCBB4
+- footer background: #27211c
+- Footer H1: #f5e6d1
+- Footer links: #dbad87
+- animal page backgrounds(in order): #c4aca4, #665046, #4a3c30
+- animal page foregrounds(in order): #ad968e, #5c483e, #27211c
+- 1.8em on Home and Geography, 1.5em on Animals
+- footer: 2.2em
+- h1: 1em
 
 ## CSS Ruleset 
-
-(Include every class name, what it applies to, and what its purpose is)
-
-(You do not need to include every ruleset, only the ones that use class names (REMEMBER you do not use id names for CSS))
-
-- (EXAMPLE: ClassName: for list elements that need to be aligned left of an image: font size 1rem, color #FFFFFF, bullet style, alignment: left etc. )

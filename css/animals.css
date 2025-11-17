@@ -5,6 +5,7 @@ html{
     padding: 0;
 }
 h1 {
+    font-size: 1em;
     font-family: Borel;
 }
 p {
@@ -27,14 +28,14 @@ header{
 }
 /* Navigation */
 
-.horizontal ul{
+#horizontal ul{
     list-style-type: none;
     padding: 0em;
     margin: 0em;
     overflow: hidden;
 }
 
-.horizontal a{
+#horizontal a{
     background-color: #8c441c;
     color: #eddac0;
     text-decoration: none;
@@ -46,7 +47,7 @@ header{
     border-right: .06em solid #352F2A;
     font-family: Rubik;
 }
-.horizontal li{
+#horizontal li{
     float: left;
     width: 33.333%;
     margin: 0;
