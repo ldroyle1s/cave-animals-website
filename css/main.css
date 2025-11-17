@@ -152,7 +152,7 @@ form#caveSurvey {
    flex-flow: row wrap;
    font-family: Rubik;
 }
-/* sets forum background color & border styles */
+/* sets form background color & border styles */
 form#caveSurvey > fieldset {
     background-color: rgb(191, 128, 90);
     -webkit-flex: 1 1 300px;
