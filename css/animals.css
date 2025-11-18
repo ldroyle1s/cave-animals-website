@@ -8,8 +8,11 @@ h1 {
     font-size: 1em;
     font-family: Borel;
 }
-p {
+p, figcaption {
     font-family: Rubik;
+}
+figcaption {
+    font-size: .88em;
 }
 
 /* header */
